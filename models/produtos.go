@@ -54,6 +54,7 @@ func CriaNovoProduto(nome, descricao string, preco float64, quantidade int) {
 	defer db.Close()
 
 }
+print();
 
 func DeletaProduto(id string) {
 	db := db.ConectaComBancoDeDados()
